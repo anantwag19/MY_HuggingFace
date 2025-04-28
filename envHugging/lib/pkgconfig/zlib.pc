@@ -1,0 +1,13 @@
+prefix=/Users/anantwaghmare/Desktop/Udemy_AI/MY_HuggingFace/envHugging
+exec_prefix=/Users/anantwaghmare/Desktop/Udemy_AI/MY_HuggingFace/envHugging
+libdir=/Users/anantwaghmare/Desktop/Udemy_AI/MY_HuggingFace/envHugging/lib
+sharedlibdir=/Users/anantwaghmare/Desktop/Udemy_AI/MY_HuggingFace/envHugging/lib
+includedir=/Users/anantwaghmare/Desktop/Udemy_AI/MY_HuggingFace/envHugging/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
